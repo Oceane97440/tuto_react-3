@@ -10,5 +10,5 @@ npm start<br>
 
 # Sommaire
 tuto 1 :https://github.com/Oceane97440/tuto_react-1<br>
-tuto 2 :https://github.com/Oceane97440/tuto_react-3<br>
+tuto 2 :https://github.com/Oceane97440/tuto_react-2<br>
 tuto 3 : https://github.com/Oceane97440/tuto_react-3<br>
