@@ -1,6 +1,6 @@
 # tuto_react-3
-npx create-react-app my-app<br>
-cd my-app<br>
+npx create-react-app tuto_react-3<br>
+cd tuto_react-3<br>
 npm start<br>
 
 # Lecons
