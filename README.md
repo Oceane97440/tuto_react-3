@@ -6,7 +6,7 @@ npm start<br>
 # Lecons
 301. Méthodes de cycle de vie
 302. Phase de montage d’un composant React
-
+303. Phase de Mise à jour d’un composant React
 
 
 # Sommaire

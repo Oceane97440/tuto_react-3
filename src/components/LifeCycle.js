@@ -5,6 +5,7 @@ class LifeCycle extends Component {
   constructor(props) {
     super(props);
 
+    //state avant
     this.state = {
       name: 'Montage construteur',
       step: 1
@@ -18,6 +19,23 @@ class LifeCycle extends Component {
   // on peut modifier le stat
   componentDidMount() {
     console.log(`Etape ${this.state.step} : Je suis dans le componentDidMount`)
+      
+    //state après
+    this.setState({
+      name: this.props.name,
+      step:this.state.step +1
+    })
+
+    console.log(`Etape ${this.state.step} :setState a changer le stat`)
+
+  }
+
+  //la methode prend 2 param le propos d'avant et le stat d'avant
+  componentDidUpdate(prevProps,prevState){
+    console.log(`Etape ${this.state.step} : Je suis dans le componentDidUpdate`)
+    console.log(prevProps)
+    console.log(prevState)
+
   }
 
   render() {
@@ -30,7 +48,7 @@ class LifeCycle extends Component {
         <p>Cycles: {this.state.name}</p>
 
         <p>Chargement: {this.state.step}</p>
-        <Child />
+        {/* <Child /> */}
       </div>
     )
   }
