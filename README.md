@@ -4,7 +4,8 @@ cd tuto_react-3<br>
 npm start<br>
 
 # Lecons
-
+301. Méthodes de cycle de vie
+302. Phase de montage d’un composant React
 
 
 
