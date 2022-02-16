@@ -7,7 +7,7 @@ npm start<br>
 301. Méthodes de cycle de vie
 302. Phase de montage d’un composant React
 303. Phase de Mise à jour d’un composant React
-
+314. Phase de Démontage d’un composant React
 
 # Sommaire
 tuto 1 :https://github.com/Oceane97440/tuto_react-1<br>

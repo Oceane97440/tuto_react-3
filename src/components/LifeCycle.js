@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Child from "./Child";
-
+import '../index.css'
 class LifeCycle extends Component {
   constructor(props) {
     super(props);
@@ -30,6 +30,12 @@ class LifeCycle extends Component {
 
   }
 
+  // on retire le composent du DOM
+  componentWillUnmount(){
+    console.log(`Je suis dans le componentWillUnmount`)
+
+  }
+
   //la methode prend 2 param le propos d'avant et le stat d'avant
   componentDidUpdate(prevProps,prevState){
     console.log(`Etape ${this.state.step} : Je suis dans le componentDidUpdate`)
@@ -42,7 +48,7 @@ class LifeCycle extends Component {
     console.log(`Etape ${this.state.step} : Je suis dans le render`)
 
     return (
-      <div>
+      <div className="box">
         {console.log(`Etape ${this.state.step} : MAJ DOM`)}
 
         <p>Cycles: {this.state.name}</p>
