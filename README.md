@@ -8,6 +8,8 @@ npm start<br>
 302. Phase de montage d’un composant React
 303. Phase de Mise à jour d’un composant React
 314. Phase de Démontage d’un composant React
+315. La méthode getDerivedStateFromProps
+
 
 # Sommaire
 tuto 1 :https://github.com/Oceane97440/tuto_react-1<br>
