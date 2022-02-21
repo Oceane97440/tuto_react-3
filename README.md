@@ -9,6 +9,7 @@ npm start<br>
 303. Phase de Mise à jour d’un composant React
 314. Phase de Démontage d’un composant React
 315. La méthode getDerivedStateFromProps
+328. PureComponent
 
 
 # Sommaire

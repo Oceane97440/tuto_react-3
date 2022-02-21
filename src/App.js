@@ -38,8 +38,8 @@ class App extends Component {
         <LifeCycle2 age={this.state.age} />
         <button onClick={this.update}>Clique ici pour changer le propos</button>
 
-        {showComponent}
-        <button onClick={this.delete}>Clique ici</button>
+        {/* {showComponent}
+        <button onClick={this.delete}>Clique ici</button> */}
       </div>
     );
   }
