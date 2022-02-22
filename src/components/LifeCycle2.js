@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PureComp from "./PureComponent";
+import FunctionComp from "./FunctionComp";
 
 class LifeCycle2 extends Component {
     constructor(props) {
@@ -44,6 +45,8 @@ class LifeCycle2 extends Component {
             
             <div className="box">
                 <PureComp name={this.state.name}/>
+                <FunctionComp name={this.state.name}/>
+
                 <p>Methode getDerivedStateFromProps</p>
                 <p>Nom : {this.state.name}</p>
                 <p>Age : {this.props.age}</p>
